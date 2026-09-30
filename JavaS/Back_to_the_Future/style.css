@@ -1,10 +1,10 @@
-font-face {
+@font-face {
   font-family: "Digital";
-  src: url("DS-DIGI.TTF"); /* https://www.dafont.com/es/ds-digital.font */
+  /*src: url("DS-DIGI.TTF");  https://www.dafont.com/es/ds-digital.font */
 }
 
 body {
-    /*background-image: url("metal.jpg");/* https://wall.alphacoders.com/big.php?i=369168&lang=Spanish */
+    /*background-image: url("metal.jpg");  https://wall.alphacoders.com/big.php?i=369168&lang=Spanish*/
     align-content: center;
 }
 
