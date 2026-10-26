@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Ejempl2.js"defer></script>
+</head>
+<body>
+    <script>
+        var sumatorio = function(inicio){
+var total = inicio;
+var sumar =function (constante){
+total=total+constante;
+console.log(total);
+};
+return sumar;
+}
+ 
+var suma10=sumatorio(10);
+var suma15=sumatorio(15);
+suma10(3);
+suma10(3);
+suma15(5);
+    </script>
+</body>
+</html>

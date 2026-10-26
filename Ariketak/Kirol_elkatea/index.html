@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación Deportiva del Barrio</title>
+    <script src="imc.js" defer></script>
+    <script src="fcm.js" defer></script>
+    <script src="categoria.js" defer></script>
+    <script src="horarios.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Asociación Deportiva del Barrio</h1>
+        <p>Salud, deporte y compañerismo</p>
+    </header>
+
+    <main>
+        <h2>Programas deportivos</h2>
+
+        <button onclick="calcularIMC()">Calculadora de IMC</button>
+        <button onclick="calcularFCM()">Calculadora de FCM</button>
+        <button onclick="calcularCategoria()">Categoría deportiva</button>
+        <button onclick="mostrarHorarios()">Horarios de la asociación</button>
+
+        <section id="resultado" aria-live="polite">
+            <h2>Bienvenido/a</h2>
+            <p>Pulsa uno de los botones para ejecutar el programa correspondiente.</p>
+        </section>
+    </main>
+</body>
+</html>

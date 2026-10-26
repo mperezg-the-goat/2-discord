@@ -1,0 +1,40 @@
+<!--Necesitas un reloj con cronómetro y lo vas a desarrollar en Javascript. El reloj mostrará la hora, con minutos y segundos. El cronómetro, a su vez, tendrá lo siguiente:
+Un botón para poner a 0 el contador.
+Un botón para arrancar el cronómetro.
+Un botón para parar el cronómetro.
+Un botón para escribir el valor del cronómetro parado en la página (podrán escribirse tantos valores como se desee).-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj y Cronómetro</title>
+    <script src="konometro.js" defer></script>
+</head>
+<body>
+
+    <!-- Reloj en tiempo real -->
+    <section>
+        <h2>Reloj Actual</h2>
+        <div id="reloj">00:00:00</div>
+    </section>
+
+    <hr>
+
+    <!-- Cronómetro -->
+    <section>
+        <h2>Cronómetro</h2>
+        <div id="cronometro">00:00:00</div>
+        
+        <!-- Botones del cronómetro -->
+        <button id="btn-iniciar">Iniciar</button>
+        <button id="btn-parar">Parar</button>
+        <button id="btn-reset">Poner a 0</button>
+        <button id="btn-guardar">Guardar valor</button>
+
+        <!-- Lista para los valores guardados -->
+        <ul id="lista-tiempos"></ul>
+    </section>
+
+</body>
+</html>
