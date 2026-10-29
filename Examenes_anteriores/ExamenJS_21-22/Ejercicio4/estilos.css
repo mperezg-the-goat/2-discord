@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input, textarea, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.noticia {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.Ana {
+    background-color: #d9ecff;
+}
+
+.Luis {
+    background-color: #dff5df;
+}
+
+.Marta {
+    background-color: #ffe5d9;
+}
+
+.noticia h3 a {
+    color: #222;
+}

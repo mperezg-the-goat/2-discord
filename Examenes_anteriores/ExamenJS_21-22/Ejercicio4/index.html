@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Periódico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Redacción del periódico</h1>
+
+    <form id="formulario">
+        <label for="titulo">Título de la noticia:</label>
+        <input type="text" id="titulo">
+
+        <label for="noticia">Texto de la noticia:</label>
+        <textarea id="noticia"></textarea>
+
+        <label for="periodista">Periodista:</label>
+        <select id="periodista">
+            <option value="Ana">Ana</option>
+            <option value="Luis">Luis</option>
+            <option value="Marta">Marta</option>
+        </select>
+
+        <label for="url">URL de la noticia:</label>
+        <input type="url" id="url" placeholder="https://ejemplo.com">
+
+        <button type="submit">Publicar noticia</button>
+    </form>
+
+    <h2>Noticias publicadas</h2>
+    <div id="noticias"></div>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
